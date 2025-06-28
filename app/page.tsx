@@ -350,7 +350,7 @@ export default function Home() {
           true,
           gameState.guessedLetters.length,
           gameState.maxWrongGuesses,
-          gameState.gameStatus !== "timeout"
+          true // Always true since status is "playing"
         )
       : currentSession?.pointsEarned || 0;
 
