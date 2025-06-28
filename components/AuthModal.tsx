@@ -85,7 +85,7 @@ export function AuthModal({ isOpen, onClose, onAuth, onGuestPlay }: AuthModalPro
               <span className="font-semibold text-slate-200">Quick Start</span>
             </div>
             <p className="text-sm text-slate-400 mb-3">
-              Jump right into the game without creating an account. Your progress won't be saved.
+              Jump right into the game without creating an account. Your progress won&apos;t be saved.
             </p>
             <Button 
               onClick={handleGuestPlay}

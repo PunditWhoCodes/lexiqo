@@ -123,7 +123,7 @@ export function GameOver({
               <div>
                 <h3 className="text-lg font-bold text-amber-800">🎊 Level Unlocked!</h3>
                 <p className="text-sm text-amber-700">
-                  Congratulations! You've unlocked <Badge className={`bg-gradient-to-r ${DIFFICULTY_GRADIENTS[levelUnlocked]} text-white mx-1`}>
+                  Congratulations! You&apos;ve unlocked <Badge className={`bg-gradient-to-r ${DIFFICULTY_GRADIENTS[levelUnlocked]} text-white mx-1`}>
                     {DIFFICULTY_LABELS[levelUnlocked]}
                   </Badge> level!
                 </p>
