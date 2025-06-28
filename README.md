@@ -1,4 +1,4 @@
-# 🧠 Word Guessing Game Project
+# 🧠 Lexiqo Project
 The Lexiqo is a Next.js application that challenges players to guess a word within a limited number of attempts. The game features multiple difficulty levels, each with its unique word list and point system. Players can track their progress, unlock new levels, and compete with others to achieve the highest score.
 
 ## 🚀 Features
