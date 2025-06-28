@@ -203,10 +203,10 @@ export function getLevelProgress(level: DifficultyLevel, wins: number): { curren
 }
 
 export function calculateLevelUpBonus(newLevel: DifficultyLevel): number {
-  const bonuses = {
+  const bonuses: Partial<Record<Exclude<DifficultyLevel, 'basic'>, number>> = {
     medium: 500,
     advance: 1000,
     pro: 2000
   };
-  return bonuses[newLevel] || 0;
+  return bonuses[newLevel as Exclude<DifficultyLevel, 'basic'>] || 0;
 }
